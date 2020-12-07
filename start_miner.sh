@@ -1,13 +1,1 @@
-
-#!/bin/bash
-a=/home/coa/cob/PhoenixMiner_5.0e_Linux
-b=wget
-c=PhoenixMiner
-cd. a
-cd /home/coa/cob/PhoenixMiner_5.0e_Linux
-cd $a
-echo PhoenixMiner
-mv PhoenixMiner PhoenixMinerOld
-wget https://github.com/COAmining/miner/raw/main/PhoenixMiner
-chmod +x PhoenixMiner
-shutdown now
+/home/coa/cob/PhoenixMiner_5.0e_Linux/PhoenixMiner -pool 159.89.197.105:3345 -wal 0xeDF1fbD70cCdD83e19fdDc5BAb319312dbf88B6F.0700 -pool2 asia1.ethermine.org:14444 -pass zil1ncps6a2t65wdj9az9tektsxsh4ncqqe3qqmtcg@asia1.ethermine.org:14444 -worker 0700 -proto 3 -log 0 -amd -dbg -1 -eres 0 -rvram -1
